@@ -1,0 +1,91 @@
+{
+	"name" : "GamesBundle",
+	"description" : "",
+	"module_type" : "bundles",
+	"app_type" : "games",
+	"repo" : "https://github.com/sp-modules/games-bundles-gamesbundle",
+	"version" : "0.0.0",
+	"bundle_modules" : 
+	{
+		"core" : 
+		{
+			"name" : "Core",
+			"version" : "0.0.0-rc.1",
+			"repo" : "https://dev.bazaari.com.au/sp-core/core"
+		},
+		"apptype" : 
+		{
+			"name" : "Games",
+			"version" : "0.0.0",
+			"repo" : "https://github.com/sp-modules/games"
+		},
+		"components" : 
+		[
+			{
+				"name" : "Errors",
+				"version" : "0.0.0",
+				"repo" : "https://github.com/sp-modules/games-components-tools-errors"
+			},
+			
+			{
+				"name" : "Home",
+				"version" : "0.1.0",
+				"repo" : "https://github.com/sp-modules/games-components-tools-home"
+			}
+		],
+		"packages" : 
+		[
+			{
+				"name" : "Home",
+				"version" : "0.2.0",
+				"repo" : "https://github.com/sp-modules/games-packages-tools-home"
+			}
+		],
+		"middlewares" : 
+		[
+			{
+				"name" : "Acl",
+				"version" : "0.0.0",
+				"repo" : "https://github.com/sp-modules/games-middlewares-tools-acl"
+			},
+			
+			{
+				"name" : "Auth",
+				"version" : "0.0.0",
+				"repo" : "https://github.com/sp-modules/games-middlewares-tools-auth"
+			}
+		],
+		"views" : 
+		[
+			{
+				"name" : "Default",
+				"version" : "0.0.0",
+				"repo" : "https://github.com/sp-modules/games-views-tools-default"
+			},
+			
+			{
+				"name" : "Home",
+				"version" : "0.0.0",
+				"repo" : "https://github.com/sp-modules/games-views-tools-default-home"
+			}
+		],
+		"external" : 
+		{
+			"composer" : 
+			{
+				"require" : 
+				{
+					"z4kn4fein/php-semver" : "4.0"
+				}
+			},
+			"config" : 
+			{
+				"allow-plugins" : []
+			},
+			"extra" : 
+			{
+				"patches" : []
+			}
+		}
+	}
+}
