@@ -10,7 +10,7 @@
 		"core" : 
 		{
 			"name" : "Core",
-			"version" : "0.0.0-rc.1",
+			"version" : "0.0.0-rc.3",
 			"repo" : "https://dev.bazaari.com.au/sp-core/core"
 		},
 		"apptype" : 
