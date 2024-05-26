@@ -85,7 +85,13 @@
 			},
 			"extra" : 
 			{
-				"patches" : []
+				"patches" : 
+				{
+					"fzaninotto/faker" : 
+					{
+						"test_patch" : "external/patches/fzaninotto_faker_generator.patch"
+					}
+				}
 			}
 		}
 	}
