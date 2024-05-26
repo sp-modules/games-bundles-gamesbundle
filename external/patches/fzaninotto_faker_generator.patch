@@ -1,0 +1,9 @@
+--- Generator.php	2015-05-29 16:29:14.000000000 +1000
++++ GeneratorNew.php	2024-05-26 21:53:32.396982054 +1000
+@@ -1,5 +1,5 @@
+ <?php
+-
++//This is just a test
+ namespace Faker;
+ 
+ /**
